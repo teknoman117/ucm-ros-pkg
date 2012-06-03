@@ -1,0 +1,17 @@
+<package>
+  <description brief="kybernetes_scripts">
+
+     kybernetes_scripts
+
+  </description>
+  <author></author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/kybernetes_scripts</url>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="gpsd_client"/>
+
+</package>
+
+

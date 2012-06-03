@@ -1,0 +1,20 @@
+<package>
+  <description brief="kybernetes_sensors">
+
+     This package pulls data from the sensor processing board on Kybernetes
+
+  </description>
+  <author>Nathaniel Lewis</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/kybernetes_sensors</url>
+  <depend package="rospy"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+
+  <rosdep name="python-serial"/>
+  <rosdep name="python-simplejson"/>
+
+</package>
+
+

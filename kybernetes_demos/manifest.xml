@@ -1,0 +1,20 @@
+<package>
+  <description brief="kybernetes_demos">
+
+     kybernetes_demos
+
+  </description>
+  <author></author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/kybernetes_demos</url>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+  <depend package="kdl"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="kybernetes_motion"/>
+
+</package>
+
+

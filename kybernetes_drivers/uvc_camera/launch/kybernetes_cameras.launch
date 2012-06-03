@@ -1,0 +1,8 @@
+<launch>
+    <!-- Start the Quickcam Orbit AF -->
+    <node name="camera" pkg="uvc_camera" type="uvcgrabber" ns="camera0" />
+    <param name="/camera0/device" value="/dev/video0" />
+    <param name="/camera0/width" value="320" />
+    <param name="/camera0/height" value="240" />
+    <param name="/camera0/mode" value="rgb8" />
+</launch>

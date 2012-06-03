@@ -1,0 +1,18 @@
+<package>
+  <description brief="uvc_camera">
+
+     uvc_camera
+
+  </description>
+  <author>Nathaniel Lewis</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/uvc_camera</url>
+  <depend package="roscpp"/>
+  <depend package="sensor_msgs"/>
+
+  <rosdep name="libjpeg" />
+  
+</package>
+
+

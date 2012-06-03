@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="kybernetes_motion" type="motion_interface.py" name="motion_interface">
+		<param name="port" value="/dev/ttyACM1" />
+		<param name="baudrate" value="57600" />
+	</node>
+</launch>

@@ -1,0 +1,4 @@
+location_fetch_node:
+    host: localhost
+    port: 2947
+    use_gps_time: false

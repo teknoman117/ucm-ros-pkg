@@ -1,0 +1,6 @@
+<launch>
+    <!-- Start the Razor IMU -->
+    <node name="imu_razor9dof" pkg="imu_razor9dof" type="imu_razor9dof" ns="imu0" />
+    <param name="/imu0/port" value="/dev/ttyUSB0" />
+    <param name="/imu0/baudrate" value="57600" />
+</launch>

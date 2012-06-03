@@ -1,0 +1,9 @@
+# Service takes updates to PTZ state, returns new state
+
+int16 pan
+int16 tilt
+int16 zoom
+---
+int16 rpan
+int16 rtilt
+int16 rzoom

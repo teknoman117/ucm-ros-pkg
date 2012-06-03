@@ -1,0 +1,11 @@
+<launch>
+    	<!-- Load the GPS Parameters and start the GPS daemon (system responsible for gpsd start -->
+	<rosparam command="load" file="$(find kybernetes_scripts)/params/kybernetes.yaml" />
+	<node name="location_fetch_node" pkg="gpsd_client" type="gpsd_client" />
+
+	<!-- Load hardware interface nodes (sensors, motors, etc.) -->
+	<include file="$(find kybernetes_sensors)/launch/sensor_controller.launch" />
+	<include file="$(find kybernetes_motion)/launch/motion_controller.launch" />
+	<include file="$(find uvc_camera)/launch/kybernetes_cameras.launch" />
+	<include file="$(find imu_razor9dof)/launch/kybernetes_imu.launch" />
+</launch>

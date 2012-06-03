@@ -1,0 +1,19 @@
+<package>
+  <description brief="kybernetes_navi">
+
+     kybernetes_navi
+
+  </description>
+  <author></author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/kybernetes_navi</url>
+
+  <depend package = "roscpp" />
+  <depend package = "std_msgs" />
+  <depend package = "sensor_msgs" />
+  <depend package = "kybernetes_sensors" />
+
+</package>
+
+

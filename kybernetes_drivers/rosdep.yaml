@@ -1,0 +1,8 @@
+python-serial:
+    ubuntu: python-serial
+
+python-simplejson:
+    ubuntu: python-simplejson
+
+libjpeg:
+    ubuntu: libjpeg62-dev

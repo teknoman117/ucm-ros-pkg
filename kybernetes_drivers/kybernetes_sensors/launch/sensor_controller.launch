@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="kybernetes_sensors" type="sensor_interface.py" name="sensor_interface">
+		<param name="port" value="/dev/ttyACM0" />
+		<param name="baudrate" value="57600" />
+	</node>
+</launch>

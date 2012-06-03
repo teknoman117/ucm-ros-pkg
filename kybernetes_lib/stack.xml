@@ -1,0 +1,10 @@
+<stack>
+  <description brief="kybernetes_lib">kybernetes_lib</description>
+  <author>Maintained by Nathaniel Lewis</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/kybernetes_lib</url>
+  <depend stack="ros" />
+  <depend stack="ros_comm" /> <!-- roscpp -->
+
+</stack>
