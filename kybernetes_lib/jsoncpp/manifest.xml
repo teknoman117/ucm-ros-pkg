@@ -1,0 +1,20 @@
+<package>
+  <description brief="jsoncpp">
+
+     This package contains I library I found online (http://jsoncpp.sourceforge.net/) to do json interpretation called JsonCpp
+
+  </description>
+  <author>
+      Baptiste Lepilleur
+      Nathaniel Lewis (set up as a ROS package)
+  </author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/jsoncpp</url>
+  <depend package="roscpp"/>
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -lros"/>
+  </export>
+</package>
+
+
